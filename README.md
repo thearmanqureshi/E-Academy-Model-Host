@@ -70,26 +70,18 @@ graph TD
 
 ## Repository Structure
 ```
-E-Academy/
+E-Academy-Model-Host/
 │
-├── static/                 # Static files (CSS, JS, Images)
-│   ├── css/                # Stylesheet files
-│   ├── js/                 # JavaScript files
-│   └── images/             # Image assets
+├── static/
+│   ├── model.tflite
+│   └── scaler.pkl
 │
-├── templates/              # HTML templates
-│   ├── index.html          # Home template
-│   ├── student.html        # Student Home template
-│   ├── teacher.html        # Teacher's Dashboard template
-│   └── ...
-│
-├── app.py                  # Contain python flask app
-├── config.py               # Configuration settings
-├── wsgi.py                 # WSGI entry point
-├── requirements.txt        # Project dependencies
-├── LICENSE                 # Project's License
-├── Readme.md               # Project's Readme 
-└── procfile                # Procfile for Render
+├── app.py
+├── render.yaml
+├── requirements.txt
+├── LICENSE
+├── Readme.md
+└── procfile
 ```
 ## Installation and Setup
 
